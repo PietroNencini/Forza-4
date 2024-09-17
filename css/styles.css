@@ -1,0 +1,16 @@
+#tabella_gioco {
+    border: black solid 0.2rem;
+    text-align: center;
+}
+
+#tabella_gioco {
+    width: 80%;
+}
+
+#riga_input, #riga_input > td {
+    border: none;
+}
+img {
+    width: 32px;
+    height: 32px;
+}
