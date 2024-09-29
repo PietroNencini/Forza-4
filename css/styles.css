@@ -1,9 +1,14 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
 #tabella_gioco {
-    border: black solid 0.2rem;
     text-align: center;
 }
 
 #tabella_gioco {
+    width: 100%;
+}
+
+#game_table_container {
     width: 80%;
 }
 
@@ -14,3 +19,20 @@ img {
     width: 32px;
     height: 32px;
 }
+
+#page_title {
+    background: linear-gradient(90deg, red, yellow);
+}
+
+#page_title > h1 {
+    font-size: 4rem;
+}
+
+tr, td {
+    padding: 1rem;
+}
+
+td > i {
+    font-size: xx-large;
+}
+
